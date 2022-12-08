@@ -1,0 +1,45 @@
+.header {
+    display: flex;
+    justify-content: space-between;
+    width: 93%;
+    margin: 2% 0 3% 2%;
+    align-items: center;
+    font-weight: 500;
+}
+
+.header_logo { 
+    width: 210px;
+    height: 68px;
+}
+
+@media screen and (max-width:  767px)
+{
+
+.header {
+    width: 100%;
+}
+
+.header_logo {
+    width: 145px;
+    height: 47px;
+    padding-left: 0px;
+    margin-left: -18px;
+}
+}
+
+@media screen and (max-width:  450px)
+{
+
+.header {
+    width: 100%;
+}
+
+.header_logo {
+    width: 145px;
+    height: 47px;
+    padding-left: 0px;
+    margin-left: -25px;
+}
+
+
+}

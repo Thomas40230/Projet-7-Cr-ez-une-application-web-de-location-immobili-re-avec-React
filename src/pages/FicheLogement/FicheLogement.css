@@ -1,0 +1,50 @@
+.lodging_main {
+    display: flex;
+    flex-direction: column;
+    align-items:  center;
+}
+
+.lodgings_infos_container {
+    display: flex;
+    width: 92%;
+    margin-bottom: 2%;
+}
+
+.lodging_collapse_container {
+    display: flex;
+    justify-content: space-between;
+    width: 92%;
+    font-size: 18px;
+    
+}
+
+.collapse_description {
+    width: 50%;
+}
+
+.collapse_equipments {
+    display: flex;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+.list_equipments {
+    list-style-type: none;
+}
+
+/* Media queries tablet */
+
+@media (max-width: 767px) {
+
+    .lodging_collapse_container {
+        flex-direction: column;
+    }
+
+    .collapse_description {
+        width: 100%;
+    }
+
+    .collapse_equipments {
+        width: 100%;
+    }
+}

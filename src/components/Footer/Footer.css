@@ -1,0 +1,29 @@
+@import "./../../Style/Utils/Variables.css";
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 2%;
+    width: 100%;
+    height: 209px;
+    background-color: var(--footer-color);
+    font-weight: 500;
+}
+
+.footer_logo {
+    width: 122px;
+    height: 40px;
+}
+
+.footer_txt {
+    color: var(--tertiary-color);
+}
+
+@media screen and (max-width:  450px) {
+
+.footer_txt {
+    font-size: 12px;
+}
+}    

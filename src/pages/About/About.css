@@ -1,0 +1,30 @@
+.collapse_container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 3%;
+}
+
+.collapse_div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 80%;
+    margin-bottom: 98px;
+}
+
+.collapse_div > div {
+    display: flex;
+    width: 100%;
+}
+
+/* Media queries tablet */
+
+@media (max-width: 768px) {
+
+    .collapse_div {
+        width: 90%;
+    }
+}
